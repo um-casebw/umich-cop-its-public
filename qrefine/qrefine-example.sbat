@@ -55,7 +55,7 @@ my_job_header
 echo "Running from $(pwd)"
 
 qrefine
-cd /home/casebw/qrefine_examples/emptytestdir
+cd ~/qrefine_example
 qr.test --nproc=2
 
 ##  If you copied any files to /tmp, make sure you delete them here!
