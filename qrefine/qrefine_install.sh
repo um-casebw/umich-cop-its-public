@@ -36,7 +36,7 @@ cat << EOF >> ~/.test1
 function qrefine {
         module load mamba/py3.13
         source activate qrefine
-        source /home/casebw/.conda/envs/qrefine/lib/python3.10/site-packages/build/setpaths.sh
+        source ~/.conda/envs/qrefine/lib/python3.10/site-packages/build/setpaths.sh
 }
 export -f qrefine
 EOF
